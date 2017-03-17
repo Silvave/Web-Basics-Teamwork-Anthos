@@ -1,0 +1,26 @@
+html {
+    font-size: 14px;
+}
+
+nav {
+    background-color: #2ea620;
+}
+
+ul {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+li a {
+    font-size: 1.4rem;
+    color: #000000;
+}
