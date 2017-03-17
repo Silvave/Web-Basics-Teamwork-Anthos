@@ -1,9 +1,11 @@
 html {
     font-size: 14px;
+    background-color: #E7E8E7;
 }
 
 nav {
-    background-color: #2ea620;
+    background-color: #8C9825;
+    padding: 10px;
 }
 
 ul {
@@ -22,5 +24,10 @@ ul li {
 
 li a {
     font-size: 1.4rem;
-    color: #000000;
+    color: #FFFFFF;
+}
+
+header > h1 {
+    font-size: 2.2rem;
+    color: #2C6FB1;
 }
