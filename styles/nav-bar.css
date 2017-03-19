@@ -1,3 +1,4 @@
+/*@import url("https://fonts.googleapis.com/css?family=Lato:300,400,800,900");*/
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300');
 
 * {
@@ -63,6 +64,7 @@ a {
     color: #333333;
     font-size: 25px;
     text-align: center;
+    /*letter-spacing: 1.5px; !*Passes*!*/
     text-shadow: 1px 1px 0 #FFF,
     2px 2px 0 #999;
 
