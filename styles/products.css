@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: Lato, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.2rem;
+    color: #723733;
+}
