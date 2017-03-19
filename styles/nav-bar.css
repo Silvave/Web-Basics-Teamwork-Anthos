@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+html {
+    position: relative;
+}
+
 body {
     background: #eee url('http://subtlepatterns.com/patterns/extra_clean_paper.png');
     /*background: #eee url("../images/003-Brown-Paper.png");*/
