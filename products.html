@@ -8,51 +8,73 @@
     <link rel="stylesheet" href="styles/footer.css">
 </head>
 <body>
-<header class="main-header">
-    <h1 id="main-title">Софтуни Шопъ</h1>
-    <nav class="main-nav-bar">
-        <ul class="nav-primary">
-            <li class="nav-item home"><a href="index.html">Мейнъ</a></li>
-            <li class="nav-item"><a href="#">Шопъ</a></li>
-            <li class="nav-item"><a href="blog.html">Блогъ</a></li>
-            <li class="nav-item"><a href="contacts.html">Контактъ</a></li>
-        </ul>
-    </nav>
-</header>
+    <header class="main-header">
+        <h1 id="main-title">Софтуни Шопъ</h1>
+        <nav class="main-nav-bar">
+            <ul class="nav-primary">
+                <li class="nav-item home"><a href="index.html">Мейнъ</a></li>
+                <li class="nav-item"><a href="#">Шопъ</a></li>
+                <!--<li class="nav-item"><a href="blog.html">Блогъ</a></li>-->
+                <li class="nav-item"><a href="contacts.html">Контактъ</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <section>
+        <aside>
+            <section class="top-products">
+                <h2>Top Products</h2>
+                <ul>
+                    <li><a href="#">Yakitori (grilled chicken)</a></li>
+                    <li><a href="#">Tsukune (minced chicken patties)</a></li>
+                    <li><a href="#">Okonomiyaki (savory pancakes)</a></li>
+                    <li><a href="#">Mizutaki (chicken stew)</a></li>
+                    <li><a href="#">Sushi</a></li>
+                    <li><a href="#">Tempura</a></li>
+                </ul>
+            </section>
+        </aside>
+        <aside>
+            <section class="recent-products">
+                <h2>Recent Products</h2>
+                <ul>
+                    <li><a href="#">Yakitori (grilled chicken)</a></li>
+                    <li><a href="#">Tsukune (minced chicken patties)</a></li>
+                    <li><a href="#">Okonomiyaki (savory pancakes)</a></li>
+                    <li><a href="#">Mizutaki (chicken stew)</a></li>
+                    <li><a href="#">Sushi</a></li>
+                    <li><a href="#">Tempura</a></li>
+                </ul>
+            </section>
+        </aside>
+        <section class="products">
             <article>
-                <header id="webColors">Web Colors</header>
-                <p>Web colors are colors used in designing web pages, and the methods for describing and specifying those
-                    colors. Colors may be specified as an RGB triplet or in hexadecimal format (a hex triplet). They may also be
-                    specified according to their common English names in some cases. Often a color tool or other graphics
-                    software is used to generate color values. In some uses, hexadecimal color codes are specified with notation
-                    using a leading number sign (#).[1][2] A color is specified according to the intensity of its red, green and
-                    blue components, each represented by eight bits. Thus, there are 24 bits used to specify a web color, and
-                    16,777,216 colors that may be so specified.
+                <figure>
+                    <img src="images/bok-choi.jpg" alt="Bok Choi"/>
+                    <figcaption>Bok Choi</figcaption>
+                </figure>
+                <div>
+                    <h2>Japanese Vegetarian</h2>
+                    <h3>Five week course in London</h3>
+                </div>
+                <p>
+                    A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice and
+                    noodle dishes.
                 </p>
-                <footer>
-                    <a href="http://en.wikipedia.org/wiki/Web_colors" target="_blank">Source and more info here!</a>
-                </footer>
             </article>
             <article>
-                <header id="RGBA">RGBA Color Space</header>
-                <p>RGBA stands for red green blue alpha. While it is sometimes described as a color space, it is actually
-                    simply a use of the RGB color model, with extra information. The color is RGB, and may belong to any RGB
-                    color space, but an integral alpha value as invented by Catmull and Smith between 1971 and 1972 enables
-                    alpha compositing. The inventors named alpha after the Greek letter in the classic linear interpolation
-                    formula αA + (1-α)B.
-                    The alpha channel is normally used as an opacity channel. If a pixel has a value of 0% in its alpha channel,
-                    it is fully transparent (and, thus, invisible), whereas a value of 100% in the alpha channel gives a fully
-                    opaque pixel (traditional digital images). Values between 0% and 100% make it possible for pixels to show
-                    through a background like a glass (translucency), an effect not possible with simple binary (transparent or
-                    opaque) transparency. It allows easy image compositing.
-                </p>
-                <footer>
-                    <a href="http://en.wikipedia.org/wiki/RGBA_color_space" target="_blank">Source and more info here!</a>
-                </footer>
+                <figure>
+                    <img src="images/teriyaki.jpg" alt="Teriyaki sauce"/>
+                    <figcaption>Teriyaki Sauce</figcaption>
+                </figure>
+                <div>
+                    <h2>Sauces Masterclass</h2>
+                    <h3>One day workshop</h3>
+                </div>
+                <p>An intensive one-day course looking at how to create the most delicious sauces for use in a range of
+                    Japanese cookery.</p>
             </article>
         </section>
+
     </main>
     <footer class="main-footer">
         <section class="info-socials-container">

@@ -12,7 +12,13 @@ a {
     text-decoration: none;
 }
 
-h1 {
-    font-size: 2.2rem;
-    color: #723733;
+
+.recent-products {
+    background-color: hotpink;
+}
+.top-products {
+    background-color: gold;
+}
+.products {
+    background-color: deepskyblue;
 }

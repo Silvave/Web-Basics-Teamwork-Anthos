@@ -1,10 +1,6 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 .main-footer {
-    /*background-color: #723733;*/
-    /*position: absolute;*/
-    /*left: 0;*/
-    /*right: 0;*/
     margin-top: 30px;
     text-align: center;
     border-top: 4px dashed #723733;
@@ -50,6 +46,7 @@
 .socials a {
     display: block;
     width: 32px;
+    color: #090821;
     font-size: 18px;
     line-height: 32px;
     text-align: center;
@@ -58,12 +55,17 @@
     transparent 1px, rgba(0,0,0,.15) 1.5px,
     rgba(0,0,0,.15) 3px);
     box-shadow: 0 0 0 1px rgba(0,0,0,.4),
-    0 0 20px 2px rgba(0,0,0,.4),
-    0 0 0 2px #FFF inset;
-    color: #090821;
+                0 0 20px 2px rgba(0,0,0,.4),
+                0 0 0 2px #FFF inset;
+    transform: scale(1);
+    transition: 0.15s all ease;
 }
 
 .socials li a:hover {
+    transform: scale(1.2);
+}
+
+.socials li a:active {
     box-shadow: 0 0 0 1px #8C9825,
     0 0 20px 2px #8C9825,
     0 0 0 2px #FFF inset;

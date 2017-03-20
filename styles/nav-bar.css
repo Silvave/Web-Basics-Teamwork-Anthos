@@ -1,18 +1,13 @@
 /*@import url("https://fonts.googleapis.com/css?family=Lato:300,400,800,900");*/
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300');
+/*@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300');*/
 
 * {
     margin: 0;
     padding: 0;
 }
 
-html {
-    position: relative;
-}
-
 body {
     background: #eee url('http://subtlepatterns.com/patterns/extra_clean_paper.png');
-    /*background: #eee url("../images/003-Brown-Paper.png");*/
     width: 90%;
     margin: 0 auto;
 }
@@ -53,8 +48,8 @@ a {
     width: 173px;
     margin: 0 15px;
     position: relative;
-    /*Angles the items to the left */
-    transform: skewy(3deg);
+    /*Angles the items to the left and sets the scale*/
+    transform: scale(1) skewy(3deg);
     /*Text pops up and smooths lines*/
     backface-visibility: hidden;
     transition: 200ms all;
@@ -68,7 +63,6 @@ a {
     color: #333333;
     font-size: 25px;
     text-align: center;
-    /*letter-spacing: 1.5px; !*Passes*!*/
     text-shadow: 1px 1px 0 #FFF,
     2px 2px 0 #999;
 
@@ -78,18 +72,22 @@ a {
     transparent 1px, rgba(0,0,0,.15) 1.5px,
     rgba(0,0,0,.15) 3px);
     box-shadow: 0 0 0 1px rgba(0,0,0,.4),
-    0 0 20px 2px rgba(0,0,0,.4),
+    5px 5px 20px 2px rgba(0,0,0,.4),
     0 0 0 2px #FFF inset;
 }
 
 .nav-primary .nav-item:hover {
-    width: 203px;
-    margin: 0;
-    /*Angles the items to the right*/
-    transform: skewy(-3deg);
-
+    /*Angles the items to the right and scale them*/
+    transform: scale(1.1) skewy(-3deg);
 }
 
 .nav-primary a:hover {
+    color: #ffa000;
+}
+
+.nav-primary a:active {
     color: #8C9825;
+    box-shadow: 0 0 0 1px #8C9825,
+    0 0 20px 2px #8C9825,
+    0 0 0 2px #FFF inset;
 }
