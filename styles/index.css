@@ -95,8 +95,6 @@ section.testimonials {
     background: #ffa000;
     text-align: center; /*centrira se ne samo texta - no i drugoto*/
     width: 100%;
-    margin: 0 0 100px 0;
-    box-shadow: 10px 10px 2px 5px rgba(150, 150, 150, 0.4);
 }
 
 .testimonials article {

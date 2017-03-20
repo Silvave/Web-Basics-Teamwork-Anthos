@@ -28,6 +28,11 @@
     line-height: 32px;
     border-right: 4px solid #8C9825;
     border-left: 4px solid #8C9825;
+    cursor: default;
+}
+
+.info-socials-container > h2 span:hover {
+    color: #ffa000;
 }
 
 .socials {
