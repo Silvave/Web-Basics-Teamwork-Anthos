@@ -5,6 +5,7 @@
     <title>Softuni Shop</title>
     <link rel="stylesheet" href="styles/nav-bar.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/contacts.css">
 </head>
 <body>
 <header class="main-header">
@@ -19,9 +20,27 @@
         </ul>
     </nav>
 </header>
-    <main>
-        <h1>This is the Contact page!</h1>
-    </main>
+<main>
+    <section>
+        <form action="https://formspree.io/alexandarkos@gmail.com" method="POST">
+            <h3>Пишете нъ:</h3>
+            <br>
+            <div class="contact-info">
+                <label>
+                    <span>Име</span>
+                    <input type="text" name="name" placeholder="Име">
+                </label>
+                <label><span>E-mail</span>
+                    <input type="email" name="_replyto" placeholder="E-mail"></label>
+            </div>
+            <label>
+
+                <textarea name="message" placeholder="Аре драснъ нещо де..."></textarea></label>
+
+            <input class="hvr-forward" type="submit" value="Sendъ">
+        </form>
+    </section>
+</main>
 <footer class="main-footer">
     <section class="info-socials-container">
         <ul class="socials">
