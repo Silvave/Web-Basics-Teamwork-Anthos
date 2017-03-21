@@ -133,9 +133,4 @@ article > p {
     .sidebar.right {
         margin-right: 30px;
     }
-
-}
-
-@media all and (max-width: 600px) {
-    .sidebar { margin: 0 0 0 0; }
 }

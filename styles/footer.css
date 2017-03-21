@@ -83,3 +83,33 @@
 .socials li:last-child a:hover {
     color: #bb0000;
 }
+
+
+@media all and (max-width: 950px) {
+    .info-socials-container > h2 {
+        margin: 0;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .info-socials-container > h2 {
+        font-size: 1.25rem;
+    }
+    .socials li {
+        margin-right: 15px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .info-socials-container > h2 {
+        font-size: 1.2rem;
+    }
+    .socials a {
+        width: 32px;
+    }
+    .socials li {
+        margin-right: 10px;
+    }
+}
