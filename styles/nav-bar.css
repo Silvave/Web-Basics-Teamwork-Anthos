@@ -133,3 +133,27 @@ a {
     0 0 20px 2px #8C9825,
     0 0 0 2px #FFF inset;
 }
+
+@media all and (max-width: 730px) {
+    #main-title {
+        font-size: 6.5rem;
+    }
+    .nav-primary .nav-item {
+        width: 133px;
+    }
+    .nav-primary .nav-item a {
+        font-size: 1.4rem;
+    }
+}
+
+@media all and (max-width: 730px) {
+    #main-title {
+        font-size: 5.5rem;
+    }
+    .nav-primary .nav-item {
+        width: 113px;
+    }
+    .nav-primary .nav-item a {
+        font-size: 1.2rem;
+    }
+}
