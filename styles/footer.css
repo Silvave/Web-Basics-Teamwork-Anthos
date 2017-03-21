@@ -66,7 +66,7 @@
 }
 
 .socials li a:active {
-    box-shadow: 0 0 0 1px #8C9825,
+        box-shadow: 0 0 0 1px #8C9825,
     0 0 20px 2px #8C9825,
     0 0 0 2px #FFF inset;
 }

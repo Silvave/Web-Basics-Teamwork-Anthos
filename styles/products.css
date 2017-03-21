@@ -10,15 +10,132 @@ body {
 
 a {
     text-decoration: none;
+    color: #FFFFFF;
 }
 
+main {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    font-family: 'Lato', cursive;
+}
+main > * {
+    flex: 1 100%;
+}
 
-.recent-products {
-    background-color: hotpink;
+.sidebar {
+    margin-top: 10px;
+}
+
+.sidebar ul {
+    margin-top: 10px;
+    list-style: none;
+}
+.sidebar ul a {
+    color: #333333;
+}
+
+.sidebar a:hover {
+    color: #ffa000  ;
+}
+
+.sidebar section {
+    padding: 20px 0;
+}
+
+.products {
+    width: 70%;
+    float: left;
+    margin-bottom: 10px;
+
+}
+.products > article {
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #FFFFFF;
+    background: repeating-linear-gradient(45deg, transparent,
+    transparent 2px, rgba(0,0,0,.15) 1.5px,
+    rgba(0,0,0,.15) 3px);
+    border-top: 2px solid #1A334B;
+    border-bottom: 2px solid #1A334B;
+    margin-top: 10px;
+}
+
+.products > article:hover {
+    background-color: rgba(62, 120, 177, 0.2);
+    border-top: 2px solid #54A2F1;
+    border-bottom: 2px solid #54A2F1;
+}
+
+.products > article:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+article > figure {
+    float: left;
+    width: 45%;
+}
+
+article > figure img {
+    margin-top: 7px;
+    max-width: 93%;
+    max-height: 10%;
+}
+
+article > div {
+    /*margin-top: 20px;*/
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+article > div h2 {
+    color: #555155;
+}
+article > div h5 {
+    color: #8C9825;
+}
+article > p {
+    color: #333333;
+    word-wrap: break-word;
+}
+
+.top-products, .recent-products {
+    background-color: rgba(255, 255, 255, .2);
+}
+.recent-products  {
+    border-right: 2px solid #ffa000;
+    border-bottom: 2px solid #ffa000;
+
 }
 .top-products {
-    background-color: gold;
+    border-top: 2px solid #ffa000;
+    border-left: 2px solid #ffa000;
+
 }
-.products {
-    background-color: deepskyblue;
+
+
+@media all and (min-width: 900px) {
+    .products {flex: 3 0;}
+    .products {order: 2;}
+    .sidebar.left {order: 1;}
+    .sidebar.right {order: 3;}
+}
+
+@media all and (min-width: 600px) {
+    .sidebar { flex: 1 0; }
+    .sidebar.left {
+        margin-left: 30px;
+    }
+    .sidebar.right {
+        margin-right: 30px;
+    }
+
+}
+
+@media all and (max-width: 600px) {
+    .sidebar { margin: 0 0 0 0; }
 }
